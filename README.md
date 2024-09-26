@@ -49,4 +49,41 @@ More information about contributing can be found [here](.github/CONTRIBUTING.md)
 ## Info 📍
 The bot is a collaborative effort from TheSourceCode community to create a feature packed discord bot where everyone is welcome to contribute
 
----
+## How to Run
+Clone the repository by running the command git clone https://github.com/SebastiaanYN/Open-SourceBot.git
+Ensure that the latest version of node.js is installed. The link to install node.js can be found here: https://nodejs.org/en
+
+## Linux
+Install node
+Run npm install
+
+## Ubuntu
+Install the needed system dependencies: sudo apt install build-essential nodejs 
+Run node --version and make sure it is v12 or later. If not refer to the node.js download page to get an updated version.
+Run npm install
+
+# Windows
+Install node.js
+Install Visual Studio Community
+Open x64 Native Tools Command Prompt for VS 2019 and cd to the bot's folder
+Run npm install and make sure it succeeds
+Run npm start
+
+
+## Existing Commands
+There are currently two features which have been implemented within this open source project
+
+  ## Help
+  The help command is meant to provide the users with a list of the commands available to them.
+
+  ## Ping
+  The ping command is meant to provide the users with a ping of the bot
+ 
+
+## Potential Command Additions
+Run a youtube query
+Run an image query
+Run a google query
+Make a joke
+Run a stock market query dependent on stock's ticker
+Play a requested song
